@@ -1,0 +1,37 @@
+.card {
+    position: relative;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: 0px 18px 53px 0px rgb(0, 0, 0.3);
+    border-radius: 20px;
+    /* This fixes the images in the tinder cards*/
+    background-size: cover;
+    background-position: cover;
+}
+
+.tinderCards__cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+/*Now this will make the images come top of one another*/
+
+.swipe {
+    position: absolute;
+}
+
+.cardContent {
+    width: 100%;
+    height: 100%;
+}
+
+.card h3 {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+}

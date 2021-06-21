@@ -19,7 +19,7 @@ function Header() {
             <img className="header__logo" src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/tinder.png" alt="" />
 
             <IconButton>
-                <ForumIcon />
+                <ForumIcon fontSize="large" className="header__icon" />
             </IconButton>
 
         </div>
